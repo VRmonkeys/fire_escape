@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/VRTK/Examples/023_Controller_ChildOfControllerOnGrab.unity
+  isLoaded: 1
+  isActive: 1
