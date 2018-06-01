@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 8eb6ae5b20b3a5c47b3f6289a6211054
+timeCreated: 1508474748
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Object
+    100002: Object002
+    100004: Object004
+    100006: Object006
+    100008: Object008
+    100010: Object010
+    100012: Object012
+    100014: Object014
+    100016: Object016
+    100018: Object018
+    100020: Object020
+    100022: Object022
+    100024: Object024
+    100026: Object026
+    100028: Object028
+    100030: Object030
+    100032: Object032
+    100034: Object034
+    100036: Object036
+    100038: Object038
+    100040: Object040
+    100042: Object042
+    100044: Object044
+    100046: Object046
+    100048: Object048
+    100050: Object050
+    100052: Object052
+    100054: Object054
+    100056: Object056
+    100058: Object058
+    100060: Object060
+    100062: Object062
+    100064: Object064
+    100066: Smoke detector
+    100068: //RootNode
+    100070: Splinker
+    400000: Object
+    400002: Object002
+    400004: Object004
+    400006: Object006
+    400008: Object008
+    400010: Object010
+    400012: Object012
+    400014: Object014
+    400016: Object016
+    400018: Object018
+    400020: Object020
+    400022: Object022
+    400024: Object024
+    400026: Object026
+    400028: Object028
+    400030: Object030
+    400032: Object032
+    400034: Object034
+    400036: Object036
+    400038: Object038
+    400040: Object040
+    400042: Object042
+    400044: Object044
+    400046: Object046
+    400048: Object048
+    400050: Object050
+    400052: Object052
+    400054: Object054
+    400056: Object056
+    400058: Object058
+    400060: Object060
+    400062: Object062
+    400064: Object064
+    400066: Smoke detector
+    400068: //RootNode
+    400070: Splinker
+    2300000: Object
+    2300002: Object002
+    2300004: Object004
+    2300006: Object006
+    2300008: Object008
+    2300010: Object010
+    2300012: Object012
+    2300014: Object014
+    2300016: Object016
+    2300018: Object018
+    2300020: Object020
+    2300022: Object022
+    2300024: Object024
+    2300026: Object026
+    2300028: Object028
+    2300030: Object030
+    2300032: Object032
+    2300034: Object034
+    2300036: Object036
+    2300038: Object038
+    2300040: Object040
+    2300042: Object042
+    2300044: Object044
+    2300046: Object046
+    2300048: Object048
+    2300050: Object050
+    2300052: Object052
+    2300054: Object054
+    2300056: Object056
+    2300058: Object058
+    2300060: Object060
+    2300062: Object062
+    2300064: Object064
+    3300000: Object
+    3300002: Object002
+    3300004: Object004
+    3300006: Object006
+    3300008: Object008
+    3300010: Object010
+    3300012: Object012
+    3300014: Object014
+    3300016: Object016
+    3300018: Object018
+    3300020: Object020
+    3300022: Object022
+    3300024: Object024
+    3300026: Object026
+    3300028: Object028
+    3300030: Object030
+    3300032: Object032
+    3300034: Object034
+    3300036: Object036
+    3300038: Object038
+    3300040: Object040
+    3300042: Object042
+    3300044: Object044
+    3300046: Object046
+    3300048: Object048
+    3300050: Object050
+    3300052: Object052
+    3300054: Object054
+    3300056: Object056
+    3300058: Object058
+    3300060: Object060
+    3300062: Object062
+    3300064: Object064
+    4300000: Object052
+    4300002: Object054
+    4300004: Object056
+    4300006: Object058
+    4300008: Object060
+    4300010: Object062
+    4300012: Object050
+    4300014: Object064
+    4300016: Object024
+    4300018: Object002
+    4300020: Object004
+    4300022: Object006
+    4300024: Object008
+    4300026: Object010
+    4300028: Object012
+    4300030: Object014
+    4300032: Object016
+    4300034: Object018
+    4300036: Object020
+    4300038: Object022
+    4300040: Object048
+    4300042: Object026
+    4300044: Object028
+    4300046: Object030
+    4300048: Object032
+    4300050: Object034
+    4300052: Object036
+    4300054: Object038
+    4300056: Object040
+    4300058: Object042
+    4300060: Object044
+    4300062: Object046
+    4300064: Object
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanco plastico
+    second: {fileID: 2100000, guid: 5b927584a6d67794782aad5235eb9ffe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inox
+    second: {fileID: 2100000, guid: d5c0bc8c14bd44e40826ab0f940d26c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rojo
+    second: {fileID: 2100000, guid: c3e08c910a49f5b49b86249f739d971f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wenge
+    second: {fileID: 2100000, guid: 2ae4ab3b960dc1c429b157931049c761, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+～particleのMaterila一覧～
+FireDripParticleEffect ->FlameRoundYellowParticle
+FlamesParticleEffect  ->上記と同じ
+RoofParts　　　　　  ->Roof02※
+
+※FireEscape_ver2の天井と同じテクスチャで、
+　nullになったらそれを参照してください。
+
+～tag～
+崩落はtagを使っているので、Roofparts、fireEffect
+を追加してください。
+roofParts01~06にRoofparts
+そのほかの炎のエフェクトにfireEffect
+
+～その他~
+bool型のcollpaseAwakeは崩落を一度だけ起動するフラグです。
+呼び出してtureにすればOK
+連続してよばれません。
+
