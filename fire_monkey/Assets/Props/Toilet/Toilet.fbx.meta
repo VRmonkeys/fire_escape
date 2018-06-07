@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1acdefa912e46f4da08290496e34f5b
+guid: 1a03fb3abadf26f4bbd39e775dd29bd2
 timeCreated: 1516343363
 licenseType: Free
 ModelImporter:
@@ -15,7 +15,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: c4b9f4101153f5c4f8449557dd292764, type: 2}
+    second: {fileID: 2100000, guid: 98b2825129b79c0448975576c81527b1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -58,6 +58,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
