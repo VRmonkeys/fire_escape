@@ -235,6 +235,20 @@ namespace VRTK
 
         protected virtual void OnTriggerStay(Collider collider)
         {
+
+            //当たり判定
+            string layerName = LayerMask.LayerToName(collider.gameObject.layer);
+
+            if (layerName == "Dead")
+            {
+                Debug.Log("しんだ");
+            }
+
+            if (layerName == "Clear")
+            {
+                Debug.Log("くりあー");
+            }
+
             if (parent.ignoreTriggerColliders && collider != null && collider.isTrigger)
             {
                 return;
