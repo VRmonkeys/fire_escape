@@ -637,6 +637,7 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
+    <Compile Include="Assets\work\abe\Script\ImageEffectControl.cs" />
     <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
   </ItemGroup>
   <ItemGroup>

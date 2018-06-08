@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 337
     width: 1091
     height: 394
-  m_MinSize: {x: 336, y: 271}
-  m_MaxSize: {x: 14006, y: 10021}
+  m_MinSize: {x: 332, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 26
+  controlID: 29
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 613, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 609, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 1
-  controlID: 123
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,10 +178,10 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 731
-  m_MinSize: {x: 613, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 609, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 51
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,10 +202,10 @@ MonoBehaviour:
     y: 0
     width: 1091
     height: 731
-  m_MinSize: {x: 336, y: 492}
-  m_MaxSize: {x: 14006, y: 14042}
+  m_MinSize: {x: 332, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 125
+  controlID: 52
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 126
+  controlID: 53
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,8 +248,8 @@ MonoBehaviour:
     y: 0
     width: 444
     height: 337
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -374,19 +374,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/work/abe
+    - Assets/work/abe/Script
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/work/abe
+  - Assets/work/abe/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\nwuser.DA\\Desktop\\YDA H.30 \u524D\u671F\\\u30B2\u30FC\u30E0\u30BC\u30DF\\VR_Monkey\\fire_monkey"
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a600000
-    m_LastClickedID: 24650
-    m_ExpandedIDs: 8a5d00008a5e0000845f0000ca5f00006c6000003261000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 76}
+    m_SelectedIDs: 2e2f0000
+    m_LastClickedID: 12078
+    m_ExpandedIDs: 00000000662b0000402e0000903000002c310000b232000038330000f035000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -414,7 +414,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000662b0000402e0000903000002c31000038330000f0350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -458,7 +458,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 13}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 243}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 200
 --- !u!114 &16
@@ -574,24 +574,24 @@ MonoBehaviour:
     height: 316
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6cfffeff
-    m_LastClickedID: -65684
-    m_ExpandedIDs: 20c2feff24c2feffc4d7feff6cfffeffca0affff7a22ffff3e3cffff8e49ffffc060ffffee63ffff0000000040930000
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 7c3a0000
+    m_LastClickedID: 14972
+    m_ExpandedIDs: c8f8ffff98fbffff00000000b63a00006a3b00004a3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: '[VRTK_Manager]'
-      m_OriginalName: '[VRTK_Manager]'
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -65684
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.06883173, y: 0.92467856, z: -0.20174259, w: 0.31548718}
     speed: 2
-    m_Value: {x: 0.06883171, y: 0.9246783, z: -0.20174254, w: 0.3154871}
+    m_Value: {x: 0.06883173, y: 0.92467856, z: -0.2017426, w: 0.31548718}
   m_Size:
     m_Target: 17.922615
     speed: 2
