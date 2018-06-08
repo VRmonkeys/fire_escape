@@ -592,7 +592,7 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
-    <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\Decision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prefab\Effect\Materials\SurfaceShader_VC.shader" />
