@@ -10,7 +10,7 @@
         private float sideFlip = -1;
         private float side = -1;
         private float smooth = 270.0f;
-        private float doorOpenAngle = -90f;
+        private float doorOpenAngle = 90f;
         private bool open = false;
 
         private Vector3 defaultRotation;
