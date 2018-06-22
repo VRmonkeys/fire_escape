@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23544579328826252}
   m_Layer: 0
   m_Name: desks
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 23389821186764948}
   m_Layer: 0
   m_Name: chair (2)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 23244719993182042}
   m_Layer: 0
   m_Name: chair
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 23685251546974334}
   m_Layer: 0
   m_Name: chair (1)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,9 +126,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1881922143539682}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 6.71, y: 0.502, z: 15.18}
-  m_LocalScale: {x: 40.000015, y: 40, z: 40.000015}
+  m_LocalRotation: {x: -0.21130912, y: 0.7848856, z: -0.36599818, w: 0.45315397}
+  m_LocalPosition: {x: 10.222717, y: 1.6440201, z: 16.12799}
+  m_LocalScale: {x: 40.000023, y: 40, z: 40.000023}
   m_Children:
   - {fileID: 4023403120944750}
   - {fileID: 4456744911645928}
@@ -136,7 +136,7 @@ Transform:
   - {fileID: 4965170223597588}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4787225560854712
 Transform:
   m_ObjectHideFlags: 1

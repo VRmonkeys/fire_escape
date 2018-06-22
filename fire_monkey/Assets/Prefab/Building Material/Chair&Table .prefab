@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 64257021391343838}
   m_Layer: 0
   m_Name: chair (9)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 64128195543352170}
   m_Layer: 0
   m_Name: chair (3)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 64039402546737172}
   m_Layer: 0
   m_Name: chair (7)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 64680311175018622}
   m_Layer: 0
   m_Name: chair (8)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 64440189347656416}
   m_Layer: 0
   m_Name: chair
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 64912825481821956}
   m_Layer: 0
   m_Name: chair (4)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 64309441851588220}
   m_Layer: 0
   m_Name: chair (11)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -157,7 +157,7 @@ GameObject:
   - component: {fileID: 64969118793828968}
   m_Layer: 0
   m_Name: Table (1)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 64989771314776822}
   m_Layer: 0
   m_Name: chair (10)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 64872280067495546}
   m_Layer: 0
   m_Name: chair (12)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 64230024958835604}
   m_Layer: 0
   m_Name: chair (1)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 64425983549624484}
   m_Layer: 0
   m_Name: chair (6)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 64852457458991850}
   m_Layer: 0
   m_Name: chair (15)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 64145184374765762}
   m_Layer: 0
   m_Name: chair (5)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 64239032024966026}
   m_Layer: 0
   m_Name: chair (13)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 64835993595314988}
   m_Layer: 0
   m_Name: chair (14)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 64420628222838140}
   m_Layer: 0
   m_Name: chair (2)
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -446,7 +446,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1522670204322640}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.734928, y: -16.124815, z: -11.630859}
+  m_LocalPosition: {x: 7.6, y: -16.23, z: -11.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4044969744319746}
