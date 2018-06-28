@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Work/miura/MainScene.unity
+- path: Assets/work/misawa/bael.unity
   isLoaded: 1
   isActive: 1
