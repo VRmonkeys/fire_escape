@@ -638,6 +638,7 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
     <Compile Include="Assets\work\abe\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
+    <Compile Include="Assets\work\abe\Script\BackDraftDoor.cs" />
     <Compile Include="Assets\work\abe\Script\ImageEffectControl.cs" />
     <Compile Include="Assets\work\miura\Syagami.cs" />
     <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
