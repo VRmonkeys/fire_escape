@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 653871a662440f24186b2425ac85daed
 timeCreated: 1529642669
+=======
+guid: 292f00f235af788469118cf7b0714ad1
+timeCreated: 1529643068
+>>>>>>> origin/Misawa
 licenseType: Free
 NativeFormatImporter:
   externalObjects: {}

@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 34258374873a2524ba511e8fa3a8df6f
+<<<<<<< HEAD:fire_monkey/Assets/Prefab/Building Material/Materials.meta
+guid: a12122b8eaf701c4fb7cf05123d70835
 folderAsset: yes
-timeCreated: 1529642662
+timeCreated: 1530168312
+=======
+guid: 9c9c85d3681c2d4449ac49e3671c296b
+folderAsset: yes
+timeCreated: 1529643034
+>>>>>>> origin/Misawa:fire_monkey/Assets/work/satou/Sprite.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
