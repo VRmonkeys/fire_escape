@@ -51,4 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bebb75516e0caae48a696c37133b5007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  area: {fileID: 0}
+  area: {fileID: 1722268097298782, guid: a99cf8d30f5e1ed4da048aaed8dd431e, type: 2}
+  cam: {fileID: 146900, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
+  reset: {fileID: 1496151296497980, guid: da26c2daf13e19043a5c8b4aa7219008, type: 2}
+  sprClear: {fileID: 21300000, guid: d5d99d9f252e0314691c1675962b1a86, type: 3}
+  sprReset: {fileID: 21300000, guid: bd9f9ccaf1ea11b47b16e16d83707090, type: 3}
+  sprFireGameOver: {fileID: 21300000, guid: beab93aefc13d4344b06597f529bbb00, type: 3}
+  sprSmokeGameOver: {fileID: 21300000, guid: f1bba5a46a38fe8418c03499c048c072, type: 3}
+  sprDraftGameOver: {fileID: 21300000, guid: e430bbf83453b864eb6190b1a211b9f7, type: 3}

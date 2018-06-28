@@ -6,6 +6,9 @@ TagManager:
   tags:
   - TeleportIgnore
   - ExcludeTeleport
+  - fireWall
+  - smokeDamage
+  - gameBar
   layers:
   - Default
   - TransparentFX
