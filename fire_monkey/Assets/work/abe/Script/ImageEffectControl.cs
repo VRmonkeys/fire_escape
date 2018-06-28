@@ -45,46 +45,21 @@ public class ImageEffectControl : MonoBehaviour {
         //ダメージOne
         if(damageone == true)
         {
-            vig.intensity += 0.01f;
-
-            if (vig.intensity >= 0.25f)
-            {
-              damageone = false;
-              damage = 1;
-            }
-            postprocessing.vignette.settings = vig;
-        }
-
-        //ダメージTwo
-        if(damagetwo == true && damage == 1)
-        {
-            vig.intensity += 0.01f;
+            vig.intensity += 0.005f;
 
             if (vig.intensity >= 0.45f)
             {
-                damagetwo = false;
-                damage = 2;
+                vig.intensity = 0.45f;
+                damageone = false;
+                damage = 1;
             }
             postprocessing.vignette.settings = vig;
         }
-
-        //ダメージThree
-        if (damagethree == true && damage == 2)
-        {
-            vig.intensity += 0.01f;
-
-            if (vig.intensity >= 0.7f)
-            {
-                damagethree = false;
-                damage = 3;
-            }
-            postprocessing.vignette.settings = vig;
-        }
-
+       
         //回復
         if(recovery == true)
         {
-            vig.intensity -= 0.01f;
+            vig.intensity -= 0.05f;
             if(vig.intensity <= 0.0f)
             {
                 vig.intensity = 0.0f;
