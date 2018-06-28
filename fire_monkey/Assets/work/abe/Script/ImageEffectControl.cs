@@ -20,7 +20,7 @@ public class ImageEffectControl : MonoBehaviour {
 
 
     //このboolean型をtrueにすれば各ダメージ。
-    public bool damageone = false,  damagetwo = false,  damagethree = false;
+    public bool damageone = false;
     //このboolean型をtrueにすれば回復。
     public bool recovery = false;
 
