@@ -18,8 +18,14 @@ public class Syagami : MonoBehaviour
         if (other.tag == "smokeDamage")
         {//otherには入ってきたオブジェクトが渡されているのでtagを比較しています。
             smokeFlg = true;
-            Debug.Log("煙");
+           // Debug.Log("煙");
         }
+        else
+        {
+            smokeFlg = false;
+            FindObjectOfType<ImageEffectControl>().recovery = true;
+        }
+ 
 
     }
 
@@ -45,9 +51,19 @@ public class Syagami : MonoBehaviour
 
         if(smokeFlg == true)
         {
+            if (pos.y <= startPos.y * 0.65)
+            {
+                FindObjectOfType<ImageEffectControl>().recovery = true;
+            }
+            else
+            {
+                FindObjectOfType<ImageEffectControl>().damageone = true;
+            }
+            
             Debug.Log("しゃがみ");
         }
-        //Debug.Log("startPos"+startPos);
-        //Debug.Log(pos);
+
+        Debug.Log("startPos"+startPos);
+        Debug.Log(pos);
     }
 }
