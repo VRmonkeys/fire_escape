@@ -338,7 +338,7 @@
     <Compile Include="Assets\VRTK\Editor\VRTK_SDKSetupEditor.cs" />
     <Compile Include="Assets\VRTK\Editor\VRTK_SupportInfoWindow.cs" />
     <Compile Include="Assets\VRTK\Editor\VRTK_UpdatePrompt.cs" />
-    <Compile Include="Assets\Work\abe\_MK\MKGlassFree\Editor\MKGlassFreeEditor.cs" />
+    <Compile Include="Assets\work\abe\_MK\MKGlassFree\Editor\MKGlassFreeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -400,24 +400,24 @@
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
-    <None Include="Assets\Work\abe\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
+    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
