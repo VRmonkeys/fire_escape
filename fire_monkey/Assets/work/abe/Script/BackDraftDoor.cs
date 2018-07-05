@@ -16,7 +16,10 @@ public class BackDraftDoor : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        // ここで Particle System を開始します.
-        particle.Play();
+        if (col.tag == "door")
+        {
+            // ここで Particle System を開始します.
+            particle.Play();
+        }
     }
 }

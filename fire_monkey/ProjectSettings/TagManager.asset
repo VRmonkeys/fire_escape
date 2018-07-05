@@ -9,6 +9,7 @@ TagManager:
   - fireWall
   - smokeDamage
   - gameBar
+  - door
   layers:
   - Default
   - TransparentFX
