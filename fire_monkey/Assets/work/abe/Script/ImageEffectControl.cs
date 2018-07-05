@@ -14,11 +14,6 @@ public class ImageEffectControl : MonoBehaviour {
 	public PostProcessingProfile postprocessing;
     private VignetteModel.Settings vig;
 
-    // 値が1ならdamageOne 値が2ならdamegeTwo 値が3ならdamageThree
-    // 自身にダメージがあるかどうか判定をとるために現在の状態を示すもの
-    private int damage;
-
-
     //このboolean型をtrueにすれば各ダメージ。
     public bool damageone = false;
     //このboolean型をtrueにすれば回復。
@@ -30,9 +25,6 @@ public class ImageEffectControl : MonoBehaviour {
     // Use this for initialization
     void Start () {
         vig = postprocessing.vignette.settings;
-
-
-        damage = 0;                              //初期化の状態
         vig.intensity = 0.0f;                    //vignetteの初期化
         postprocessing.vignette.settings = vig;  //vignetteへ初期化の値を反映
 
@@ -51,7 +43,6 @@ public class ImageEffectControl : MonoBehaviour {
             {
                 vig.intensity = 0.45f;
                 damageone = false;
-                damage = 1;
             }
             postprocessing.vignette.settings = vig;
         }
