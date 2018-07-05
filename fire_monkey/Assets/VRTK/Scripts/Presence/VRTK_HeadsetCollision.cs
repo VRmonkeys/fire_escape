@@ -210,8 +210,17 @@ namespace VRTK
 
     public class VRTK_HeadsetCollider : MonoBehaviour
     {
+        GameObject decision;
+
+        private bool trg = false;
+
         protected VRTK_HeadsetCollision parent;
         protected VRTK_PolicyList targetListPolicy;
+
+        protected virtual void Start()
+        {
+            trg = false;
+        }
 
         public virtual void SetParent(GameObject setParent)
         {
@@ -235,20 +244,30 @@ namespace VRTK
 
         protected virtual void OnTriggerStay(Collider collider)
         {
-
+            
             //当たり判定
             string layerName = LayerMask.LayerToName(collider.gameObject.layer);
 
             if (layerName == "Dead")
             {
-                Debug.Log("しんだ");
+                if (trg == false)
+                {
+                    Debug.Log("しんだ");
+                    GameObject.Find("Decision").GetComponent<Decision>().gameOver("fireWall");
+                    trg = true;
+                }
             }
 
             if (layerName == "Clear")
             {
-                Debug.Log("くりあー");
+                if (trg == false)
+                {
+                    Debug.Log("くりあー");
+                    GameObject.Find("Decision").GetComponent<Decision>().gameClear();
+                    trg = true;
+                }
             }
-
+            
             if (parent.ignoreTriggerColliders && collider != null && collider.isTrigger)
             {
                 return;
