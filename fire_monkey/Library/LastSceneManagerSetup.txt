@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/work/satou/GameOver.unity
+  isLoaded: 1
+  isActive: 1
