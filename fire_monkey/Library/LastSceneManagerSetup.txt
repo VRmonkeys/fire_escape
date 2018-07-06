@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/work/misawa/school5class.unity
+- path: Assets/work/misawa/bael.unity
   isLoaded: 1
   isActive: 1
