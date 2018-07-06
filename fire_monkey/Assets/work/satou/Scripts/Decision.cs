@@ -13,7 +13,6 @@ public class Decision : MonoBehaviour {
     //ゲームクリア
     private IEnumerator DelayMethod_C(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.white, 2.0f);
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene("Clear");
     }
@@ -22,7 +21,7 @@ public class Decision : MonoBehaviour {
     //炎による死亡
     private IEnumerator DelayMethod_F(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 0;
@@ -34,7 +33,7 @@ public class Decision : MonoBehaviour {
     //煙による死亡
     private IEnumerator DelayMethod_S(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 1;
@@ -45,7 +44,7 @@ public class Decision : MonoBehaviour {
     //煙による死亡
     private IEnumerator DelayMethod_B(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 2;
@@ -68,7 +67,7 @@ public class Decision : MonoBehaviour {
 
     public void DraftDead()
     {
-        Coroutine coroutine = StartCoroutine("DelayMethod_B", 1.0f);
+        Coroutine coroutine = StartCoroutine("DelayMethod_B", 3.0f);
     }
 
     public void gameClear()
