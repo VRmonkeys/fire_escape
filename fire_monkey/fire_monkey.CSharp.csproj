@@ -637,19 +637,19 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\GunAim.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\GunShoot.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\work\abe\Script\BackDraftDoor.cs" />
-    <Compile Include="Assets\work\abe\Script\ImageEffectControl.cs" />
-    <Compile Include="Assets\work\abe\Script\Openable_Door2.cs" />
-    <Compile Include="Assets\work\miura\Syagami.cs" />
-    <Compile Include="Assets\work\satou\Scripts\Change.cs" />
-    <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\Work\abe\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Work\abe\Script\BackDraftDoor.cs" />
+    <Compile Include="Assets\Work\abe\Script\ImageEffectControl.cs" />
+    <Compile Include="Assets\Work\abe\Script\Openable_Door2.cs" />
+    <Compile Include="Assets\Work\miura\Syagami.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\Change.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\Decision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
@@ -711,6 +711,7 @@
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
+    <None Include="Assets\Work\abe\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
@@ -729,7 +730,6 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
-    <None Include="Assets\work\abe\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
