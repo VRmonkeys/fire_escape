@@ -68,7 +68,7 @@ public class Decision : MonoBehaviour {
 
     public void DraftDead()
     {
-        Coroutine coroutine = StartCoroutine("DelayMethod_S", 1.0f);
+        Coroutine coroutine = StartCoroutine("DelayMethod_B", 1.0f);
     }
 
     public void gameClear()

@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackDraftDoor : MonoBehaviour {
+public class BackDraftDoor : MonoBehaviour
+{
+    [SerializeField]
+    private GameObject decision;
+
+    //private Decision decision;
 
     private ParticleSystem particle;
 
+    //1回だけ処理するトリガー
+    private bool trg = false;
+
     void Start()
     {
+        //decision = GetComponent<Decision>();
         particle = this.GetComponent<ParticleSystem>();
 
         // ここで Particle System を停止する.
@@ -20,6 +29,14 @@ public class BackDraftDoor : MonoBehaviour {
         {
             // ここで Particle System を開始します.
             particle.Play();
+
+            if (trg == false)
+            {
+                decision.GetComponent<Decision>().DraftDead();
+                trg = true;
+            }
         }
     }
 }
+
+
