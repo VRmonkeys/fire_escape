@@ -637,10 +637,18 @@
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseDefines.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
     <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
-    <Compile Include="Assets\work\abe\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\work\abe\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\work\abe\Script\BackDraftDoor.cs" />
     <Compile Include="Assets\work\abe\Script\ImageEffectControl.cs" />
+    <Compile Include="Assets\work\abe\Script\Openable_Door2.cs" />
     <Compile Include="Assets\work\miura\Syagami.cs" />
+    <Compile Include="Assets\work\satou\Scripts\Change.cs" />
     <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -703,24 +711,7 @@
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
-    <None Include="Assets\work\abe\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+    <None Include="Assets\work\abe\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
