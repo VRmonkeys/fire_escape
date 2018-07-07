@@ -51,7 +51,7 @@
 
         private void SetDoorRotation(Vector3 interacterPosition)
         {
-            side = ((rotated == false && interacterPosition.z > transform.position.z) || (rotated == true && interacterPosition.x > transform.position.x) ? -1 : 1);
+            side = -1;//((rotated == false && interacterPosition.z > transform.position.z) || (rotated == true && interacterPosition.x > transform.position.x) ? -1 : 1);
         }
     }
 }

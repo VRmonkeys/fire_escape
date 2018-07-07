@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 65312289885959020}
   m_Layer: 0
   m_Name: desk&chair
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,9 +127,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1881922143539682}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -7.75, y: 0.5, z: 9.34}
-  m_LocalScale: {x: 30, y: 40, z: 40.000023}
+  m_LocalRotation: {x: -0, y: -0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.03240034, y: -0.485, z: -9.886002}
+  m_LocalScale: {x: 3, y: 40, z: 40.00004}
   m_Children:
   - {fileID: 4023403120944750}
   - {fileID: 4456744911645928}
