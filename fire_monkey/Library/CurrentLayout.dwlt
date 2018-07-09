@@ -60,9 +60,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1256
+    x: 1175
     y: 0
-    width: 280
+    width: 361
     height: 731
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -87,8 +87,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 373
-    height: 454
+    width: 349
+    height: 449
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -111,9 +111,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 454
-    width: 1256
-    height: 277
+    y: 449
+    width: 1175
+    height: 282
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -204,7 +204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1256
+    width: 1175
     height: 731
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
@@ -228,8 +228,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1256
-    height: 454
+    width: 1175
+    height: 449
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
@@ -248,10 +248,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 373
+    x: 349
     y: 0
-    width: 883
-    height: 454
+    width: 826
+    height: 449
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
@@ -311,9 +311,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 546
-    width: 1254
-    height: 256
+    y: 541
+    width: 1173
+    height: 261
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\nwuser.DA\Documents\firemonkey\fire_monkey
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 165}
+    scrollPos: {x: 0, y: 160}
     m_SelectedIDs: 98340000
     m_LastClickedID: 13464
     m_ExpandedIDs: 00000000842b0000b82c0000fe2c0000603500003e3a000000ca9a3bffffff7f
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1258
+    x: 1177
     y: 92
-    width: 278
+    width: 359
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
@@ -480,28 +480,28 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 371
-    height: 433
+    width: 347
+    height: 428
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 704}
-    m_SelectedIDs: 7cfaffff
-    m_LastClickedID: -1412
-    m_ExpandedIDs: 60f2fbffa835feff8444ffff9446ffffc0faffff98fbffff00000000ec3d00000a3f0000
+    scrollPos: {x: 0, y: 32}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8af8ffff50faffff96faffff98fbffff000000006e3e00005e3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Wall (8)
+      m_OriginalName: Wall (8)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -1998
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -532,10 +532,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 375
+    x: 351
     y: 92
-    width: 879
-    height: 433
+    width: 822
+    height: 428
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 265.0009406423469
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.26164246, y: -4.8698893, z: 13.59166}
+    m_Target: {x: -14.097231, y: 1.4144399, z: 14.229762}
     speed: 2
-    m_Value: {x: 0.26164246, y: -4.8698893, z: 13.59166}
+    m_Value: {x: -14.097231, y: 1.4144399, z: 14.229762}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.12777646, y: -0.7934703, z: 0.17859517, w: -0.56763947}
+    m_Target: {x: -0.18685138, y: 0.06742639, z: -0.012817828, w: -0.98001295}
     speed: 2
-    m_Value: {x: -0.12777437, y: -0.7934574, z: 0.17859225, w: -0.5676302}
+    m_Value: {x: -0.18684678, y: 0.06742473, z: -0.012817511, w: -0.97998875}
   m_Size:
-    m_Target: 43.871197
+    m_Target: 48.579025
     speed: 2
-    m_Value: 43.871197
+    m_Value: 48.579025
   m_Ortho:
     m_Target: 0
     speed: 2
