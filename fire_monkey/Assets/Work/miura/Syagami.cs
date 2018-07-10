@@ -11,10 +11,8 @@ public class Syagami : MonoBehaviour
     Vector3 startPos;   //初期位置の代入する変数
     Vector3 pos;        //常に更新する座標
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
-
-
         if (other.tag == "smokeDamage")
         {//otherには入ってきたオブジェクトが渡されているのでtagを比較しています。
             smokeFlg = true;
@@ -22,14 +20,19 @@ public class Syagami : MonoBehaviour
         }
         else
         {
-            smokeFlg = false;
-            FindObjectOfType<ImageEffectControl>().recovery = true;
+            
         }
- 
 
     }
 
-
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "smokeDamage")
+        {//otherには入ってきたオブジェクトが渡されているのでtagを比較しています。
+            smokeFlg = false;
+            // Debug.Log("煙");
+        }
+    }
     
     // Use this for initialization
     void Start()
@@ -41,6 +44,7 @@ public class Syagami : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (ONE)
         {
             startPos = transform.position;
@@ -48,22 +52,27 @@ public class Syagami : MonoBehaviour
 
         }
         pos = transform.position;
-
-        if(smokeFlg == true)
+        
+        if (smokeFlg == true)
         {
-            if (pos.y <= startPos.y * 0.65)
+            if (pos.y >= startPos.y * 0.65)
             {
-                FindObjectOfType<ImageEffectControl>().recovery = true;
+                FindObjectOfType<ImageEffectControl>().damageone = true;
+                FindObjectOfType<ImageEffectControl>().recovery = false;
             }
             else
             {
-                FindObjectOfType<ImageEffectControl>().damageone = true;
+                FindObjectOfType<ImageEffectControl>().recovery = true;
+                FindObjectOfType<ImageEffectControl>().damageone = false;
             }
-            
-            Debug.Log("しゃがみ");
+        }
+        else
+        {
+            FindObjectOfType<ImageEffectControl>().recovery = true;
+            FindObjectOfType<ImageEffectControl>().damageone = false;
         }
 
-        Debug.Log("startPos"+startPos);
-        Debug.Log(pos);
+      //  Debug.Log("startPos"+startPos);
+      //  Debug.Log(pos);
     }
 }

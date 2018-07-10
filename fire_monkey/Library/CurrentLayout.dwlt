@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,10 +42,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 342}
+  m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
-  controlID: 9
+  controlID: 47
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 373
     height: 454
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -114,14 +114,14 @@ MonoBehaviour:
     y: 454
     width: 1256
     height: 277
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,10 +206,10 @@ MonoBehaviour:
     y: 0
     width: 1256
     height: 731
-  m_MinSize: {x: 404, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 406, y: 342}
+  m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 48
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 0
     width: 1256
     height: 454
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 49
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,19 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefab/Effect
+    - Assets/Work/miura
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab/Effect
+  - Assets/Work/miura
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\nwuser.DA\\Desktop\\\u5B66\u6821\\\u30BC\u30DF\\FireEscape\\.git\\fire_monkey"
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 35}
-    m_SelectedIDs: 784a0000
-    m_LastClickedID: 19064
-    m_ExpandedIDs: 00000000083c0000783d0000803e00006645000016490000ffffff7f
+    scrollPos: {x: 0, y: 613}
+    m_SelectedIDs: fe2c0000
+    m_LastClickedID: 11518
+    m_ExpandedIDs: 00000000842b0000fe2c00000a2e00006a35000030380000ea380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000083c0000323d0000783d0000a6450000744a0000
+    m_ExpandedIDs: 00000000842b0000fe2c00000a2e00006a35000030380000ea380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,10 +392,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: b2ed0000
+    m_LastClickedInstanceID: 60850
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 8a2f00004c3f0000fa450000
+    m_ExpandedInstanceIDs: 8a2f00004c3f0000fa450000f0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -485,9 +485,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 520af2ff580af2ff760af2ffba0af2ffd827f2ff2440f2ff5840f2ff5a40f2ffd25df2ff8ca3f2ff48c8f2ffaee2f2ffd43df3ffe46ef3ffa28af3ff08a5f3ff62e6f3ff2658f4ff06caffff0acaffff66caffff6acafffff8e9ffffa0eaffffa4eaffff22f4ffff00000000ea4c0000c24d0000944e0000924f00008e50000024510000ac51000086530000e8530000e40d0800160e0800d80e0800e210080088140800c01408003a1b0800501b0800121c0800f41f08005021080084210800a0250800d225080094260800fc2a0800442c08007c2c0800503b0800663b0800283c0800664108009a41080026500800585008001a510800ca56080002570800981a0900
+    m_SelectedIDs: 3c3f0000
+    m_LastClickedID: 16188
+    m_ExpandedIDs: 98fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -538,14 +538,14 @@ MonoBehaviour:
     height: 433
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 233.39593607419584
+  lastFramingTime: 54.08772654796915
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -19.529108, y: 0.15268064, z: 11.638062}
+    m_Target: {x: -2.5101907, y: -1.5404873, z: 15.371185}
     speed: 2
-    m_Value: {x: -19.529108, y: 0.15268064, z: 11.638062}
+    m_Value: {x: -2.5101907, y: -1.5404873, z: 15.371185}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.068505846, y: 0.9313796, z: -0.24366784, w: -0.2616581}
+    m_Target: {x: 0.39770952, y: -0.12928471, z: 0.05666408, w: 0.90659386}
     speed: 2
-    m_Value: {x: -0.068505846, y: 0.9313796, z: -0.24366784, w: -0.2616581}
+    m_Value: {x: -0.39770952, y: 0.12928471, z: -0.056664083, w: -0.90659386}
   m_Size:
-    m_Target: 33.570545
+    m_Target: 15.816624
     speed: 2
-    m_Value: 33.570545
+    m_Value: 15.816624
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 680
-    width: 1568
-    height: 338
+    y: 546
+    width: 1254
+    height: 256
   m_PersistentViewDataDictionary: {fileID: 0}
