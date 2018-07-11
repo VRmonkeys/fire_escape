@@ -52,3 +52,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   area: {fileID: 1722268097298782, guid: a99cf8d30f5e1ed4da048aaed8dd431e, type: 2}
+  ban: {fileID: 1872674065082172, guid: f9e0f64deaa042e4e993dc48d784f2df, type: 2}
