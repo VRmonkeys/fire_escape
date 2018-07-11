@@ -10,6 +10,9 @@ public class Decision : MonoBehaviour {
     [SerializeField]
     private GameObject area;
 
+    [SerializeField]
+    private GameObject ban;
+
     //ゲームクリア
     private IEnumerator DelayMethod_C(float waitTime)
     {
@@ -21,7 +24,7 @@ public class Decision : MonoBehaviour {
     //炎による死亡
     private IEnumerator DelayMethod_F(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 0;
@@ -33,7 +36,7 @@ public class Decision : MonoBehaviour {
     //煙による死亡
     private IEnumerator DelayMethod_S(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 1;
@@ -44,7 +47,7 @@ public class Decision : MonoBehaviour {
     //煙による死亡
     private IEnumerator DelayMethod_B(float waitTime)
     {
-        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 2.0f);
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
         yield return new WaitForSeconds(waitTime);
 
         Change.num = 2;
@@ -56,17 +59,23 @@ public class Decision : MonoBehaviour {
 
         if (damegeName == "fireWall")
         {
-                Coroutine coroutine = StartCoroutine("DelayMethod_F", 3.0f);
+            //ワープ禁止エリアを召喚
+            Instantiate(ban,transform.position,Quaternion.identity);
+            Coroutine coroutine = StartCoroutine("DelayMethod_F", 3.0f);
         }
     }
 
     public void SmokeDead()
     {
-        Coroutine coroutine = StartCoroutine("DelayMethod_S", 1.0f);
+        //ワープ禁止エリアを召喚
+        Instantiate(ban, transform.position, Quaternion.identity);
+        Coroutine coroutine = StartCoroutine("DelayMethod_S", 3.0f);
     }
 
     public void DraftDead()
     {
+        //ワープ禁止エリアを召喚
+        Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_B", 3.0f);
     }
 
@@ -76,6 +85,9 @@ public class Decision : MonoBehaviour {
         Debug.Log("Clear");
 
         //遅延をしてドームに移動させる
+
+        //ワープ禁止エリアを召喚
+        Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_C", 2.0f);
     }
 
