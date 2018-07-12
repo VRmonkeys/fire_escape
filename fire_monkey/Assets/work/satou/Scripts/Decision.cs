@@ -54,6 +54,17 @@ public class Decision : MonoBehaviour {
         SceneManager.LoadScene("GameOver");
     }
 
+    //炎専用遅延処理をしてプレイヤーを移動させる関数
+    //チュートリアルによる死亡
+    private IEnumerator DelayMethod_T(float waitTime)
+    {
+        area.GetComponent<VRTK_HeadsetFade>().Fade(Color.black, 3.0f);
+        yield return new WaitForSeconds(waitTime);
+
+        //Change.num = 2;
+        SceneManager.LoadScene("Tutorial");
+    }
+
     public void gameOver(string damegeName)
     {
 
@@ -77,6 +88,13 @@ public class Decision : MonoBehaviour {
         //ワープ禁止エリアを召喚
         Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_B", 3.0f);
+    }
+
+    public void TutorialDead()
+    {
+        //ワープ禁止エリアを召喚
+        Instantiate(ban, transform.position, Quaternion.identity);
+        Coroutine coroutine = StartCoroutine("DelayMethod_T", 3.0f);
     }
 
     public void gameClear()

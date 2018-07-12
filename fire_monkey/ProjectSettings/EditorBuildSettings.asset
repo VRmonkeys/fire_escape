@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/work/abe/Title.unity
     guid: e1b7d8185927e7441a49e50d0137b7d9
   - enabled: 1
+    path: Assets/work/misawa/Tutorial.unity
+    guid: ebe35d69c01457948a165261e40ed452
+  - enabled: 1
     path: Assets/work/satou/GameOver.unity
     guid: f2c636b54b11e9b4396af9af86da885c
   - enabled: 1

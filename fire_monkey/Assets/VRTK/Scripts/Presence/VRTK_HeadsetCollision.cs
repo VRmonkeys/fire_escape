@@ -258,6 +258,16 @@ namespace VRTK
                 }
             }
 
+            if (layerName == "TutorialDead")
+            {
+                if (trg == false)
+                {
+                    Debug.Log("しんだ");
+                    GameObject.Find("Decision").GetComponent<Decision>().TutorialDead();
+                    trg = true;
+                }
+            }
+
             if (layerName == "Clear")
             {
                 if (trg == false)
