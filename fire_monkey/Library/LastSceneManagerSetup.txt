@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Work/misawa/school5class.unity
-  isLoaded: 1
-  isActive: 1
