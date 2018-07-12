@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Work/misawa/bael.unity
+  isLoaded: 1
+  isActive: 1
