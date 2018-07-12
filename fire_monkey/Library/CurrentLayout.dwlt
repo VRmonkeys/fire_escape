@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 31
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,8 +87,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 326
-    height: 449
+    width: 327
+    height: 450
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -111,9 +111,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 449
+    y: 450
     width: 1085
-    height: 282
+    height: 281
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 45
+  controlID: 79
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -229,11 +229,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1085
-    height: 449
+    height: 450
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 99
+  controlID: 80
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,10 +248,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 326
+    x: 327
     y: 0
-    width: 759
-    height: 449
+    width: 758
+    height: 450
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
@@ -311,9 +311,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 541
+    y: 542
     width: 1083
-    height: 261
+    height: 260
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -327,19 +327,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Work/okamoto/tapesutori
+    - Assets/Work/misawa
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Work/okamoto/tapesutori
+  - Assets/Work/misawa
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\nwuser.DA\\Documents\\\u6388\u696D\\\u30BC\u30DF\uFF06\u9032\u7D1A\u5236\u4F5C\\3\u5E74\\\u706B\u707DVR\\fire_monkey"
+  m_LastProjectPath: C:\Users\nwuser.DA\Documents\firemonkey\fire_monkey
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 306}
-    m_SelectedIDs: 1c550000
-    m_LastClickedID: 21788
-    m_ExpandedIDs: 00000000ae3b0000e03c0000263d0000343e00004e4500008c45000004490000ffffff7f
+    scrollPos: {x: 0, y: 350}
+    m_SelectedIDs: ec340000
+    m_LastClickedID: 13548
+    m_ExpandedIDs: 00000000882b0000ca2c0000102d00002c2e000078350000b63500004e39000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +367,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ae3b0000263d0000343e00004e4500008c45000004490000
+    m_ExpandedIDs: 00000000882b0000ca2c0000102d00002c2e000078350000b63500004e390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,7 +419,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 170}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
 --- !u!114 &14
@@ -480,14 +480,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
-    width: 324
-    height: 428
+    width: 325
+    height: 429
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 949}
+    scrollPos: {x: 0, y: 1524}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 8cf1ffffb6f3ffffdcf3ffff00000000464c0000024e0000
+    m_ExpandedIDs: f234fdfffc1dffff5051ffff8a70ffffbc70ffffc270ffff6c72ffff127bffff9490ffff4096ffff4c9bffffcca7ffff06b3ffff6ab5ffffaeb7ffff0abaffff3cc4ffff98fbffff00000000463f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
-  - bael
+  - school5class
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -532,10 +532,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 328
+    x: 329
     y: 92
-    width: 755
-    height: 428
+    width: 754
+    height: 429
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 1208.0566179660136
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -24.59353, y: 1.2260363, z: 6.1272526}
+    m_Target: {x: -13.721387, y: -7.934778, z: 3.2661219}
     speed: 2
-    m_Value: {x: -24.59353, y: 1.2260363, z: 6.1272526}
+    m_Value: {x: -13.721387, y: -7.934778, z: 3.2661219}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -569,13 +569,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.083517686, y: 0.79426396, z: -0.11228351, w: 0.5912376}
+    m_Target: {x: 0.03806395, y: 0.8674941, z: -0.49141264, w: 0.06729482}
     speed: 2
-    m_Value: {x: 0.083517686, y: 0.79426396, z: -0.11228351, w: 0.5912376}
+    m_Value: {x: 0.038063765, y: 0.8674899, z: -0.49141023, w: 0.06729449}
   m_Size:
-    m_Target: 2.5293486
+    m_Target: 44.00102
     speed: 2
-    m_Value: 2.5293486
+    m_Value: 44.00102
   m_Ortho:
     m_Target: 0
     speed: 2
