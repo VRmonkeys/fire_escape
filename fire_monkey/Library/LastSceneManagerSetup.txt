@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/work/misawa/school1.unity
+- path: Assets/Work/miura/school6.unity
   isLoaded: 1
   isActive: 1
