@@ -6,23 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/work/abe/Title.unity
+    path: Assets/Scenes/Title.unity
     guid: e1b7d8185927e7441a49e50d0137b7d9
   - enabled: 1
-    path: Assets/work/misawa/Tutorial.unity
+    path: Assets/Scenes/Tutorial.unity
     guid: ebe35d69c01457948a165261e40ed452
   - enabled: 1
-    path: Assets/work/miura/school6.unity
+    path: Assets/Scenes/school6.unity
     guid: bf77a8ea1f797e746af3aef93043931d
   - enabled: 1
-    path: Assets/work/misawa/school5.unity
+    path: Assets/Scenes/school5.unity
     guid: 8f6af634a2ab5dd41a31f31aa76dea45
   - enabled: 1
-    path: Assets/work/misawa/school1.unity
+    path: Assets/Scenes/school1.unity
     guid: e7330f6f60852414e9f25b9345615af2
   - enabled: 1
-    path: Assets/work/satou/Clear.unity
+    path: Assets/Scenes/Clear.unity
     guid: a105536dcd70bf342937e03da143da1e
   - enabled: 1
-    path: Assets/work/satou/GameOver.unity
+    path: Assets/Scenes/GameOver.unity
     guid: f2c636b54b11e9b4396af9af86da885c
