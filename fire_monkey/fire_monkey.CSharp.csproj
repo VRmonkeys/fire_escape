@@ -650,6 +650,7 @@
     <Compile Include="Assets\work\abe\Script\SendScene.cs" />
     <Compile Include="Assets\work\abe\Script\SendScene2.cs" />
     <Compile Include="Assets\work\abe\Script\SendScene3.cs" />
+    <Compile Include="Assets\work\abe\Script\SendScene4.cs" />
     <Compile Include="Assets\work\abe\Script\Tutorial_BackDraftDoor.cs" />
     <Compile Include="Assets\work\miura\Syagami.cs" />
     <Compile Include="Assets\work\satou\Scripts\Change.cs" />
