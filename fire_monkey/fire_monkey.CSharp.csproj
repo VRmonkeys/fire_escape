@@ -654,6 +654,7 @@
     <Compile Include="Assets\work\abe\Script\Tutorial_BackDraftDoor.cs" />
     <Compile Include="Assets\work\miura\Syagami.cs" />
     <Compile Include="Assets\work\satou\Scripts\Change.cs" />
+    <Compile Include="Assets\work\satou\Scripts\Clear.cs" />
     <Compile Include="Assets\work\satou\Scripts\Decision.cs" />
     <Compile Include="Assets\work\satou\Scripts\SceneManager.cs" />
     <Compile Include="Assets\work\satou\Scripts\SceneMove.cs" />
