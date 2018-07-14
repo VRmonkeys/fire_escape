@@ -648,9 +648,17 @@
     <Compile Include="Assets\Work\abe\Script\BackDraftDoor.cs" />
     <Compile Include="Assets\Work\abe\Script\ImageEffectControl.cs" />
     <Compile Include="Assets\Work\abe\Script\Openable_Door2.cs" />
+    <Compile Include="Assets\Work\abe\Script\SendScene.cs" />
+    <Compile Include="Assets\Work\abe\Script\SendScene2.cs" />
+    <Compile Include="Assets\Work\abe\Script\SendScene3.cs" />
+    <Compile Include="Assets\Work\abe\Script\SendScene4.cs" />
+    <Compile Include="Assets\Work\abe\Script\Tutorial_BackDraftDoor.cs" />
     <Compile Include="Assets\Work\miura\Syagami.cs" />
     <Compile Include="Assets\Work\satou\Scripts\Change.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\Clear.cs" />
     <Compile Include="Assets\Work\satou\Scripts\Decision.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\SceneManager.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\SceneMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />

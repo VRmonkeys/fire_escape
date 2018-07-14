@@ -10,6 +10,7 @@ TagManager:
   - smokeDamage
   - gameBar
   - door
+  - doorpanel
   layers:
   - Default
   - TransparentFX
