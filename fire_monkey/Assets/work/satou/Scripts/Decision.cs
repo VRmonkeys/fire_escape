@@ -13,6 +13,15 @@ public class Decision : MonoBehaviour {
     [SerializeField]
     private GameObject ban;
 
+    public AudioClip se;
+
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     //ゲームクリア
     private IEnumerator DelayMethod_C(float waitTime)
     {
@@ -71,6 +80,7 @@ public class Decision : MonoBehaviour {
         if (damegeName == "fireWall")
         {
             //ワープ禁止エリアを召喚
+            audioSource.PlayOneShot(se);
             Instantiate(ban,transform.position,Quaternion.identity);
             Coroutine coroutine = StartCoroutine("DelayMethod_F", 3.0f);
         }
@@ -79,6 +89,7 @@ public class Decision : MonoBehaviour {
     public void SmokeDead()
     {
         //ワープ禁止エリアを召喚
+        audioSource.PlayOneShot(se);
         Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_S", 3.0f);
     }
@@ -86,6 +97,7 @@ public class Decision : MonoBehaviour {
     public void DraftDead()
     {
         //ワープ禁止エリアを召喚
+        audioSource.PlayOneShot(se);
         Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_B", 3.0f);
     }
@@ -93,6 +105,7 @@ public class Decision : MonoBehaviour {
     public void TutorialDead()
     {
         //ワープ禁止エリアを召喚
+        audioSource.PlayOneShot(se);
         Instantiate(ban, transform.position, Quaternion.identity);
         Coroutine coroutine = StartCoroutine("DelayMethod_T", 3.0f);
     }

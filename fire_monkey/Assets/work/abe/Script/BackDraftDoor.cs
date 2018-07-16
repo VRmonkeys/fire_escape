@@ -11,12 +11,17 @@ public class BackDraftDoor : MonoBehaviour
 
     private ParticleSystem particle;
 
+    public AudioClip se;
+
+    private AudioSource audioSource;
+
     //1回だけ処理するトリガー
     private bool trg = false;
 
     void Start()
     {
-        //decision = GetComponent<Decision>();
+        audioSource = GetComponent<AudioSource>();
+
         particle = this.GetComponent<ParticleSystem>();
 
         // ここで Particle System を停止する.
@@ -32,6 +37,7 @@ public class BackDraftDoor : MonoBehaviour
 
             if (trg == false)
             {
+                audioSource.PlayOneShot(se);
                 decision.GetComponent<Decision>().DraftDead();
                 trg = true;
             }

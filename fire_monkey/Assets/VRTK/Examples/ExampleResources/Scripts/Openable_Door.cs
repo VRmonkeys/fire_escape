@@ -13,8 +13,14 @@
         private float doorOpenAngle = 90f;
         private bool open = false;
 
+        private bool trg = false;
+
         private Vector3 defaultRotation;
         private Vector3 openRotation;
+
+        public AudioClip se;
+
+        private AudioSource audioSource;
 
         public override void StartUsing(VRTK_InteractUse usingObject)
         {
@@ -26,6 +32,9 @@
 
         protected void Start()
         {
+
+            audioSource = GetComponent<AudioSource>();
+
             defaultRotation = transform.eulerAngles;
             SetRotation();
             sideFlip = (flipped ? 1 : -1);
@@ -36,6 +45,11 @@
             base.Update();
             if (open)
             {
+                if (trg == false)
+                {
+                    audioSource.PlayOneShot(se);
+                    trg = true;
+                }
                 transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(openRotation), Time.deltaTime * smooth);
             }
             else
