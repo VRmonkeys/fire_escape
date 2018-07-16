@@ -657,6 +657,7 @@
     <Compile Include="Assets\Work\satou\Scripts\Change.cs" />
     <Compile Include="Assets\Work\satou\Scripts\Clear.cs" />
     <Compile Include="Assets\Work\satou\Scripts\Decision.cs" />
+    <Compile Include="Assets\Work\satou\Scripts\MapChange.cs" />
     <Compile Include="Assets\Work\satou\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Work\satou\Scripts\SceneMove.cs" />
   </ItemGroup>
@@ -721,6 +722,7 @@
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
     <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
     <None Include="Assets\Work\abe\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\Work\okamoto\ゼミ画像\a.txt" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
@@ -739,6 +741,7 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+    <None Include="Assets\plants\dd\AlphaTest-Bumped.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
