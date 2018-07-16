@@ -18,10 +18,7 @@ public class Syagami : MonoBehaviour
             smokeFlg = true;
            // Debug.Log("煙");
         }
-        else
-        {
-            
-        }
+
 
     }
 
@@ -55,7 +52,7 @@ public class Syagami : MonoBehaviour
         
         if (smokeFlg == true)
         {
-            if (pos.y >= startPos.y * 0.65)
+            if (pos.y >= startPos.y * 0.75)
             {
                 FindObjectOfType<ImageEffectControl>().damageone = true;
                 FindObjectOfType<ImageEffectControl>().recovery = false;
