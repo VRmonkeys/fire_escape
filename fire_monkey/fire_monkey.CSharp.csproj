@@ -659,6 +659,7 @@
     <Compile Include="Assets\Work\satou\Scripts\MapChange.cs" />
     <Compile Include="Assets\Work\satou\Scripts\SceneManager.cs" />
     <Compile Include="Assets\Work\satou\Scripts\SceneMove.cs" />
+    <Compile Include="Assets\Work\satou\避難\Scripts\MapChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
