@@ -739,6 +739,7 @@
     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+    <None Include="Assets\plants\dd\AlphaTest-Bumped.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
