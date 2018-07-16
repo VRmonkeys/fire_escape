@@ -4192,7 +4192,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1669236988918302, guid: e4e4898ad3cd5fe4eac395f5aef939ca, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4869623289874478, guid: e4e4898ad3cd5fe4eac395f5aef939ca, type: 2}
       propertyPath: m_LocalScale.x
@@ -15618,6 +15618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   area: {fileID: 1722268097298782, guid: a99cf8d30f5e1ed4da048aaed8dd431e, type: 2}
   ban: {fileID: 1872674065082172, guid: f9e0f64deaa042e4e993dc48d784f2df, type: 2}
+  se: {fileID: 0}
 --- !u!4 &1776682824
 Transform:
   m_ObjectHideFlags: 0
