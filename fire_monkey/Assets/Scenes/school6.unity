@@ -28286,7 +28286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1002640446
 Transform:
   m_ObjectHideFlags: 0
@@ -30296,6 +30296,7 @@ GameObject:
   - component: {fileID: 1078548470}
   - component: {fileID: 1078548469}
   - component: {fileID: 1078548468}
+  - component: {fileID: 1078548471}
   m_Layer: 0
   m_Name: Camera (head)
   m_TagString: MainCamera
@@ -30378,6 +30379,18 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1078548471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1078548466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: cb37af95248d275488b8625db0f478dc, type: 2}
 --- !u!4 &1079337332 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4561821763004666, guid: 4367a2d8e3cf6ea4fab13f0409524a4d,
