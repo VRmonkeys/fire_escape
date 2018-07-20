@@ -11,6 +11,9 @@ public class MapChange : MonoBehaviour {
     //5階のマップのスプライト
     public Sprite f5;
 
+    //1階のマップのスプライト
+    public Sprite f1;
+
     SpriteRenderer sprRen;
 
     //現在のシーンの名前
@@ -42,6 +45,9 @@ public class MapChange : MonoBehaviour {
                 break;
             case "school5":
                 sprRen.sprite = f5;
+                break;
+            case "school1":
+                sprRen.sprite = f1;
                 break;
             default:
                 break;
